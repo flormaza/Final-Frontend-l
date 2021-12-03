@@ -1,0 +1,460 @@
+* {
+  font-family: "Be Vietnam", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* HEADER */
+
+a {
+  text-decoration: none;
+  color: #232c50;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 174px;
+}
+
+.menu-hamburguesa {
+  display: none;
+}
+
+.logo-header {
+  display: flex;
+  width: 150px;
+  height: auto;
+  padding: 12px;
+  margin: 15px;
+  justify-content: flex-start;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a:hover {
+  color: #ec4a21;
+  cursor:pointer;
+  transition:all 0.5s  ease;
+}
+
+.nav-bar-container li {
+  padding-left: 20px;
+}
+
+.boton-principal {
+  background-color: #f3603b;
+  border-radius: 15px;
+  font-size: 15px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.boton-principal:hover {
+  background-color: #ec4a21;
+  cursor:pointer;
+  opacity: 0.7;
+  transition:all 0.5s  ease;
+}
+
+/* PRINCIPIO DE LA PAGINA */
+
+.main-section{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 39px;
+}
+
+.articulo-principal {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  width: 50%;
+  margin: 30px auto;
+  padding-left: 50px;
+}
+
+h1 {
+  font-size: 58px;
+  color: #232c50;
+}
+
+.articulo-principal p{
+  font-size: 16px;
+  font-weight: 500;
+  margin: 30px 150px 30px 0;
+  color:rgb (249, 249, 249);
+}
+
+.grafico {
+  width: 50%;
+}
+
+.manage{
+  display: flex;
+  align-content:flex-start;
+  justify-content: space-around;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 10%;
+  }
+
+.subtitulo-manage {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  align-content: space-around;
+  padding: 2px 3% 5% 2%;
+  margin: 1% 3% 3% 5%;
+}
+
+h2{
+  font-weight: 700;
+  size: 36px;
+  color: #232c50;
+  padding-bottom: 5%;
+  margin: 2px 2px 0px 0px;
+}
+.subtitulo-manage p{
+  font-size: 16px;
+  font-weight: 500;
+  margin: 30px 150px 30px 0;
+  color:black;
+}
+
+
+/*LISTA ITEMS*/
+
+.numeros {
+  float: left;
+  background-color: #f3603b;
+  border-radius: 50px;
+  width: 45px;
+  height: 35px;
+  padding: 15px 32px;
+  text-align: center;
+  color: white;
+  margin-right: 30px;
+}
+
+.titulo h5 {
+  font-weight: 700;
+  text-align: left;
+  font-size: 16px;
+  margin: 2px 4px 0% 0%;
+  padding-bottom: 3%;
+  padding-top: 1%;
+  
+}
+
+.texto-numeros {
+  color: grey;
+  font-size: 16px;
+  padding-left: 15%;
+  padding-bottom: 5%;
+  text-align: left;
+  margin-right: 20px;
+  }
+
+  /* TESTIMONIO PERSONAS */
+
+  .testimonios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  width: 80%;
+
+}
+
+.personas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 445px;
+  height: 219px;
+  background-color: rgb(249, 249, 249);
+  text-align: center;
+  margin: 15px;
+  position: relative;
+  font-size: 16px;
+}
+
+.personas h4 {
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.personas p {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.testimonios h2{
+font-weight: 700;
+font-size: 39px;
+margin: 40px;
+}
+
+.avatars {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -35px;
+}
+
+#blanco {
+  background-color: white;
+  color: orange;
+}
+
+/* FINAL DE LA PAGINA */
+
+.simplify {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  background-color: rgba(243, 97, 60, 1);
+  height: 260px;
+  width: 100%;
+  padding-top: 5%;
+  margin-top: 9%;
+}
+.simplify h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: white
+}
+
+.footer {
+  background-color: rgba(30, 30, 38, 1);
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  padding-top: 5%;
+  align-items: flex-start;
+  padding: left 30px;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  margin-top: 110px;
+  margin-left: -210px;
+}
+
+.iconos a:hover {
+  opacity: 0.7;
+  cursor:pointer;
+  transition:all 0.5s  ease;
+}
+
+.logo-footer {
+  padding-bottom: 50px;
+  margin-left: 90px;
+}
+
+.listas {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.listas a:hover {
+  color: #ec4a21;
+  cursor:pointer;
+  transition:all 0.5s  ease;
+}
+
+.footer a {
+  color:white;
+  margin-left: 30px;
+  
+}
+
+.email {
+  background-color: white;
+  border-radius: 50px;
+  width: 272px;
+  height: 48px;
+  padding: 15px 32px;
+  margin-right: 30px;
+  Top: 2446,03px;
+  Left: 1002,3px;
+  border: solid 1px orange;
+}
+
+.go {
+  background-color: rgba(243, 97, 60, 1);
+  border-radius: 50px;
+  width: 60px;
+  height: 48px;
+  Top: 2446,03px;
+  Left: 1002,3px;
+}
+
+/* INICIO DE MOBILE */
+
+@media screen and (max-width:834px) {
+  *{ 
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    border: none;
+  } 
+nav {
+  display: none;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-hamburguesa {
+  display: flex;
+  margin-right: 5px;
+}
+.imagen-valores {
+  width: 360px;
+  height: auto;
+}
+.articulo-principal {
+  width: 100%;
+  margin: 0%;
+  padding:0%;
+  align-items: center;
+}
+.grafico {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.main-section {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-section h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 42px;
+  
+}
+.main-section p {
+  display: flex;
+  margin: 0%;
+  align-items: center;
+  text-align: center;
+  margin: 20px 5px;
+  
+}
+.manage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+
+}
+.subtitulo-manage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px;
+  text-align: center;
+  align-items: center;
+
+}
+
+.subtitulo-manage p{
+  display: flex;
+  text-align: center;
+  margin: 0%;
+}
+h2 {
+  font-size: 30px;
+}
+h5 {
+  background-color: #FFF0EC;
+}
+.numeros{
+  align-items: center;
+  justify-content: center;
+}
+.testimonios h2 {
+  margin: 15px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+.ocultar {
+  display:none;
+}
+.simplify {
+  text-align: center;
+  align-items: center;
+  padding: 0%;
+  padding-top: 15px;
+  height: 330px;
+}
+.footer {
+  margin: 0%;
+  padding: 0%;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 400px;
+}
+.logo-footer {
+  margin: 0%;
+  padding: 0%;
+
+
+}
+.iconos {
+  margin: 0%;
+  padding: 0%;
+
+} 
+.lista1 {
+  margin: 0%;
+  padding: 0%;
+
+}
+.lista2 {
+  margin: 0%;
+  padding: 0%;
+
+}
+.formulario {
+  margin: 0%;
+  padding: 0%;
+}
+}
+
+
